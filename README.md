@@ -17,23 +17,21 @@ In the present scenario due to Covid-19, there is no efficient face mask detecti
 
 
 ## What I did??
-- I use Google colab t train my Yolov4 tiny model
-- Data for training, can be get from https://www.kaggle.com/andrewmvd/face-mask-detection
-- And you can use Roboflow to generate up to 2400 images(with starter plans)
+- Using facial landmark
+- then Using fine tuning with Mobilenetv2 architecture to classify 2 types
 - Using PyQt5 to create gui and convert to .exe file by pyinstaller
-
+ 
 ## :hourglass: Project Demo
 :movie_camera: [YouTube Demo Link](https://www.youtube.com/watch?v=6gkFgv-RpXY)
 
 🎥r: [Youtube](https://www.youtube.com/watch?v=oVlOWfg4hQA)
 
 ## :warning: Framework used
-#1
 - [OpenCV](https://opencv.org/)
+- [Caffe-based face detector](https://caffe.berkeleyvision.org/)
 - [Keras](https://keras.io/)
 - [TensorFlow](https://www.tensorflow.org/)
-- [Yolov4](https://arxiv.org/abs/2004.10934)
-
+- [MobileNetV2](https://arxiv.org/abs/1801.04381)
 ## :star: Features
 Our face mask detector didn't use any morphed masked images dataset. The model is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient and thus making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, etc.).
 
