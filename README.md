@@ -1,7 +1,7 @@
 <h1 align="center">Face Mask Detection</h1>     
-<div align= "center"><img src="https://github.com/hiimmuc/Face_mask_detction_vn/blob/main/Screenshot%202021-03-13%20152218.jpg" width="200" height="200"/>
+<!-- <div align= "center"><img src="https://github.com/hiimmuc/Face_mask_detction_vn/blob/main/Screenshot%202021-03-13%20152218.jpg" width="200" height="200"/>
   <h4>Face Mask Detection system built with OpenCV, Keras/TensorFlow using Deep Learning and Computer Vision concepts in order to detect face masks in static images as well as in real-time video streams.</h4>
-</div>
+</div> -->
 
 # Face Mask Detetor😷
 # Including executable file for Windows user
